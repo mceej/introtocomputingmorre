@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <title>C TO F</title>
+  <body>
+    <h2>Celsius to Fahrenheit Converter</h2>
+    <p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+
+    <p>
+      <label>Celsius</label>
+      <input
+        id="c"
+        type="number"
+        placeholder="Celsius"
+        oninput="temperatureConverter(this.value)"
+        onchange="temperatureConverter(this.value)"
+      />
+    </p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+    <a href="index.html">Home</a>
+    <script src="1.js"></script>
+  </body>
+</html>

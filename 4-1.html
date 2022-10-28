@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="4-1.css" />
+
+</head>
+
+<body onload="initcart()">
+
+
+
+<h1>Simple Payroll</h1>
+
+
+
+<p>
+
+<label for="itemdesc">Employee Name:</label>
+
+<input id="itemdesc" name="itemdesc" type="text"></input>
+
+<label for="qty">Days Worked:</label>
+
+<input id="qty" name="qty" type="number"></input>
+
+<label for="price">Daily Rate:</label>
+
+<input id="price" name="price" type="number"></input>
+
+<label for="deduction">Deduction Amount:</label>
+
+<input id="deduction" name="deduction" type="number"></input>
+
+<button onclick="addtocart()">Add</button>
+
+</p>
+
+<p>
+
+<label for="items">Number of Employees:</label>
+
+<input id="items" name="items" type="number" readonly></input>
+
+<button onclick="clearcart()">Clear</button>
+
+
+
+
+<!--   <button onclick="showcart()">Show Cart</button> --> 
+
+<label for="delitem">Delete No.</label>
+
+<input id="delitem" name="delitem" type="number" ></input>
+
+<button onclick="deleteitem()" >Delete</button>  
+
+</p>
+
+
+
+<p id="cart"></p>
+<a href="index.html">Home</a>
+<script src="4-1.js">   
+</script>
+
+</body>
+
+</html>

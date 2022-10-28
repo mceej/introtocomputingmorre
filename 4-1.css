@@ -1,0 +1,34 @@
+#cart {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+#cart td,
+#cart th {
+  border: 1px solid #ddd;
+
+  padding: 8px;
+}
+
+#cart tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#cart tr:nth-child(odd) {
+  background-color: #bfddf1;
+}
+
+#cart th {
+  padding-top: 12px;
+
+  padding-bottom: 12px;
+
+  text-align: left;
+
+  background-color: #4caf50;
+
+  color: white;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <title>M TO F</title>
+  <body>
+    <h2>Meter to Feet Converter</h2>
+    <p>Type a value in the Meters field to convert the value to Feet:</p>
+
+    <p>
+      <label>Meters</label>
+      <input
+        id="inputMeters"
+        type="number"
+        placeholder="Meters"
+        oninput="LengthConverter(this.value)"
+        onchange="LengthConverter(this.value)"
+      />
+    </p>
+    <p>Feet: <span id="outputFeet"></span></p>
+
+    <a href="index.html">Home</a>
+    <script src="3.js"></script>
+  </body>
+</html>
